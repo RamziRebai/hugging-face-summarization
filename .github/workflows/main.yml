@@ -20,4 +20,4 @@ jobs:
       - name: Push to hub
         env:
           HF: ${{ secrets.HF }}
-        run: git push --force https://RamziRebai:$HF@huggingface.co/spaces/RamziRebai/demo1 main
+        run: git push --force https://RamziRebai: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@huggingface.co/spaces/RamziRebai/demo1 main
